@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package projecteuler;
 
 import static projecteuler.ProjectEuler.input;
 
-/**
- *
- * @author Dany Lyth
- */
 public class Project035 {
     
     public static char[] rotate(char[] original) {

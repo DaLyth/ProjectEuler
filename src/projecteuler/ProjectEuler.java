@@ -5,12 +5,14 @@ import goodinput.GoodInput;
 
 /**
  *
- * @author DLythful
+ * @author DaLyth
  */
 public class ProjectEuler {
     
     //UPDATE WHEN A NEW PROJECT IS SOLVED
-    public static final int[] SOLVED = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 25, 35, 63};
+    public static final int[] SOLVED =
+    {1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+    12, 25, 35, 49, 63, 613};
 
     public static Scanner input = new Scanner(System.in);
 
@@ -116,6 +118,12 @@ public class ProjectEuler {
                     Project010.main(null);
                     break;
                 }
+                case 12: {
+                    System.out.println();
+                    System.out.println("Welcome to Project Euler: Problem 12.");
+                    Project012.main(null);
+                    break;
+                }
                 case 25: {
                     System.out.println();
                     System.out.println("Welcome to Project Euler: Problem 25.");
@@ -128,10 +136,22 @@ public class ProjectEuler {
                     Project035.main(null);
                     break;
                 }
+                case 49: {
+                    System.out.println();
+                    System.out.println("Welcome to Project Euler: Problem 49.");
+                    Project049.main(null);
+                    break;
+                }
                 case 63: {
                     System.out.println();
                     System.out.println("Welcome to Project Euler: Problem 63.");
                     Project063.main(null);
+                    break;
+                }
+                case 613: {
+                    System.out.println();
+                    System.out.println("Welcome to Project Euler: Problem 613.");
+                    Project613.main(null);
                     break;
                 }
                 case -1: {
