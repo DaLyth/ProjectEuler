@@ -12,7 +12,7 @@ public class ProjectEuler {
     //UPDATE WHEN A NEW PROJECT IS SOLVED
     public static final int[] SOLVED =
     {1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
-    12, 25, 35, 49, 63, 613};
+    12, 25, 35, 49, 63, 613, 616};
 
     public static Scanner input = new Scanner(System.in);
 
@@ -152,6 +152,12 @@ public class ProjectEuler {
                     System.out.println();
                     System.out.println("Welcome to Project Euler: Problem 613.");
                     Project613.main(null);
+                    break;
+                }
+                case 616: {
+                    System.out.println();
+                    System.out.println("Welcome to Project Euler: Problem 616.");
+                    Project616.main(null);
                     break;
                 }
                 case -1: {

@@ -25,6 +25,28 @@ public class Project003 {
         }
         return true;
     }
+    
+    public static boolean isPrime(long x) {
+        if(x <= 1) {
+            return false;
+        }
+        long root = (long) Math.sqrt(x);
+        long divisor = 3;
+        if (x == 2) {
+            return true;
+        } else if (x % 2 == 0) {
+            return false;
+        } else {
+            while (divisor <= root) {
+                if (x % divisor == 0) {
+                    return false;
+                } else {
+                    divisor += 2;
+                }
+            }
+        }
+        return true;
+    }
 
     public static void main(String[] args) {
         long max;
